@@ -5,7 +5,7 @@ from tokenize import Double
 from PIL import Image
 import pandas as pd
 
-directory = 'C:\\Users\\nikos\\Desktop\\MachineLearning\\FaceClassification\\train_data'
+directory = 'train_data'
 
 def imageProcession(path): #Needs the path of a photo , returns r g b values for the photo and calculates the 1-color vector
     color_img = np.asarray(Image.open(path)) / 255   
